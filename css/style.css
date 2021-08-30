@@ -7,13 +7,15 @@
 body {
   background-color: red;
   font-size: 16px;
+  color: yellow;
 }
-
-.navbar-brand {
-  padding-top: 25px;
-
+.title {
+  font-weight: bold;
 }
-
+#para {
+  background-color: blue;
+  opacity: 0.8;
+}
 .navbar-brand h1 { Restaurant name 
   font-size: 1.5em;
   text-transform: uppercase;
@@ -40,6 +42,7 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
+  background-color: black;
   color: #951C49;
   text-align: center;
 }
